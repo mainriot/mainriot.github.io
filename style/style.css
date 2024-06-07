@@ -4,6 +4,10 @@ html, body {
     margin: 0;
     padding: 0;
     height: 100%;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    background: black;
 }
 
 
@@ -14,9 +18,19 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
+.intro {
+    font-size: x-large;
+    text-align: center;
+}
+.intro a {
+    text-decoration: none;
+    color:aliceblue
+}
+.intro a:hover {
+    color: yellow;
+}
 
 /*animations*/
     
