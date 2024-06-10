@@ -4,6 +4,12 @@ html, body {
     margin: 0;
     padding: 0;
     height: 100%;
+}
+
+.index {
+    margin: 0;
+    padding: 0;
+    height: 100%;
     display: flex;
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */
@@ -26,7 +32,7 @@ html, body {
 }
 .intro a {
     text-decoration: none;
-    color:aliceblue
+    color:aliceblue;
 }
 .intro a:hover {
     color: yellow;
@@ -274,3 +280,60 @@ html, body {
     height: 59px;
     transform: rotate(-1deg);
 }
+
+/*living 03 objects*/
+.plant {
+    position: absolute;
+    display: flex;
+}
+#plant {
+    position: absolute;
+    top: -114px;
+    left: -859px;
+}
+#plant:hover {
+    animation: shake 2s forwards;
+}
+
+.chime {
+    position: absolute;
+    display: flex;
+}
+#chime {
+    position: absolute;
+    top: -150px;
+    left: -493px;
+}
+#chime:hover {
+    animation: swing 2s forwards;
+}
+
+.pillow {
+    position: absolute;
+    display: flex;
+}
+#pillow {
+    position: absolute;
+    top: 40px;
+    left: -86px;
+}
+#pillow:hover {
+    animation: flip 2s forwards;
+}
+
+.phone {
+    position: absolute;
+    display: flex;
+}
+#phone {
+    position: absolute;
+    top: 19px;
+    left: 294px;
+}
+#phone:hover {
+    animation: shake 2s forwards;
+}
+
+
+
+
