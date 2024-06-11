@@ -251,7 +251,7 @@ html, body {
     left: 392px;
 }
 #frame-b:hover {
-    animation: bounce 2s ease;
+    animation: flip 2s ease;
 }
 
 .stereo {
@@ -281,7 +281,19 @@ html, body {
     transform: rotate(-1deg);
 }
 
-/*living 03 objects*/
+.bedroom-back {
+    position: absolute;
+    display: flex;
+}
+#bedroom-back {
+    position: absolute;
+    top: -147px;
+    left: 140px;
+    width: 216px;
+    transform: rotate(2deg);
+}
+
+/*living 02 objects*/
 .plant {
     position: absolute;
     display: flex;
@@ -334,6 +346,20 @@ html, body {
     animation: shake 2s forwards;
 }
 
+
+.living01-back {
+    position: absolute;
+    display: flex;
+}
+#living01-back {
+    position: absolute;
+    top: -96px;
+    left: -387px;
+    width: 200px;
+    height: 167px;
+    transform: rotate(0deg);
+    opacity: 0.5;
+}
 
 
 
