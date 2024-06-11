@@ -308,7 +308,7 @@ html, body {
     left: 140px;
     width: 216px;
     transform: rotate(2deg);
-    opacity: 0.3;
+    opacity: 0.5;
 }
 
 
@@ -384,7 +384,7 @@ html, body {
     top: -96px;
     left: -387px;
     width: 200px;
-    height: 167px;
+    height: 161px;
     transform: rotate(0deg);
     opacity: 0.5;
 }
