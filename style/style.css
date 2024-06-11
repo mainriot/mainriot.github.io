@@ -377,6 +377,15 @@ html, body {
     width: 200px;
     height: 167px;
     transform: rotate(0deg);
+    opacity: 0;
+}
+#living01-back:hover {
+    position: absolute;
+    top: -96px;
+    left: -387px;
+    width: 200px;
+    height: 167px;
+    transform: rotate(0deg);
     opacity: 0.5;
 }
 
