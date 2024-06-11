@@ -16,6 +16,13 @@ html, body {
     background: black;
 }
 
+.brother {
+    position: absolute;
+    padding:20px;
+    font-size: 25px;
+    color:red;
+}
+
 
 #image-container {
     width: 100%;
