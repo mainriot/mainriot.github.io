@@ -143,7 +143,7 @@ html, body {
 }
 #screen-invert:hover {
     position:absolute;
-    top: -41px;
+    top: -40px;
     left: -410px;
     opacity: 0.5;
     transition: opacity 0.5s ease;
