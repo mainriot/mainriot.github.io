@@ -300,6 +300,14 @@ html, body {
     left: 140px;
     width: 216px;
     transform: rotate(2deg);
+    opacity: 0;
+}
+#bedroom-back:hover {
+    position: absolute;
+    top: -147px;
+    left: 140px;
+    width: 216px;
+    transform: rotate(2deg);
     opacity: 0.3;
 }
 
